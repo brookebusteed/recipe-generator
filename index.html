@@ -7,41 +7,45 @@
     <title>AI Recipe Generator</title>
   </head>
   <body>
-    <header>
-      <h1>AI Recipe Generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter an ingredient you want to cook with"
-          autofocus
-          required
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        Recipe placehoder
-        <br />
-        Recipe placehoder
-      </div>
-    </main>
-    <footer>
-      This was coded by
-      <a href="https://github.com/brookebusteed" target="_blank"
-        >Brooke Busteed</a
-      >
-      and is open-sourced
-      <a
-        href="https://github.com/brookebusteed/recipe-generator"
-        target="_blank"
-        >on GitHub</a
-      >
-      and hosted on
-      <a href="https://ai-recipe-generator-bb.netlify.app/" target="_blank"
-        >Netlify</a
-      >.
-    </footer>
+    <div class="container">
+      <header>
+        <h1>AI Recipe Generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter an ingredient you want to cook with"
+            autofocus
+            required
+            autocomplete="off"
+            class="prompt"
+          />
+          <input type="submit" class="button" />
+        </form>
+        <div class="recipe">
+          Recipe placehoder
+          <br />
+          Recipe placehoder
+        </div>
+      </main>
+      <footer>
+        This was coded by
+        <a href="https://github.com/brookebusteed" target="_blank"
+          >Brooke Busteed</a
+        >
+        and is open-sourced
+        <a
+          href="https://github.com/brookebusteed/recipe-generator"
+          target="_blank"
+          >on GitHub</a
+        >
+        and hosted on
+        <a href="https://ai-recipe-generator-bb.netlify.app/" target="_blank"
+          >Netlify</a
+        >.
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
