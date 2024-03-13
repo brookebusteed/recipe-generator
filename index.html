@@ -14,19 +14,22 @@
         <h1>AI Recipe Generator</h1>
       </header>
       <main>
-        <form id="generator">
-          <input
-            type="text"
-            placeholder="Enter an ingredient you want to cook with"
-            autofocus
-            required
-            autocomplete="off"
-            class="prompt"
-            id="user-prompt"
-          />
-          <input type="submit" class="button" />
-        </form>
-        <div class="recipe" id="recipe"></div>
+        <div class="form-container">
+          <form id="generator">
+            <input
+              type="text"
+              placeholder="Enter an ingredient you would like to cook with"
+              autofocus
+              required
+              autocomplete="off"
+              class="prompt"
+              id="user-prompt"
+            />
+            <input type="submit" class="button" />
+          </form>
+          <div class="hint">i.e: Chicken, Pumpkin, Tofu or Banana Muffins</div>
+        </div>
+        <div class="recipe hidden" id="recipe"></div>
       </main>
       <footer>
         This was coded by
