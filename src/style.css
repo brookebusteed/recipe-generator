@@ -23,6 +23,14 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  color: #8f1537;
+}
+
+h3 {
+  color: #c7004c;
+}
+
 form {
   padding: 30px;
   background-color: white;
@@ -64,4 +72,8 @@ footer {
   text-align: center;
   font-size: 14px;
   margin-top: 30px;
+}
+
+strong {
+  color: #8f1537;
 }
